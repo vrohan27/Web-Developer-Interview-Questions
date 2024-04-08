@@ -1,0 +1,175 @@
+<!-- 1. ### What is flexbox?
+
+Flexbox is a CSS3 layout module which provides more flexible and efficient way to align arrange and align 
+the elements within the container. It is widely supported by the modern web browser. -->
+
+
+<!-- 2. ### What is the difference between flex-grow and flex-shrink properties in Flexbox?
+
+`flex-grow` is a property in Flexbox that specifies how much a flex item should grow relative to
+ the other items in the container, while `flex-shrink` specifies how much a flex item should
+shrink relative to the other items when there is not enough space available in the container. -->
+
+
+<!-- 3. ### What is the difference between flex-wrap: nowrap and overflow: hidden in CSS?
+
+`flex-wrap: nowrap` prevents flex items from wrapping to the next line when they overflow the container,
+while `overflow: hidden` hides any content that overflows the container's boundaries. -->
+
+
+<!-- 4. ### What is the `gap` property in Flexbox, and how is it used to add spacing between flex items?
+
+The `gap` property in Flexbox sets the spacing between flex items, both horizontally and vertically.
+It is a shorthand for `row-gap` and `column-gap`. -->
+
+
+<!-- 5. ### How do you center an element using flexbox?
+
+To center an element using flexbox, we need to set the parent container's display property to `flex`
+and use the `justify-content` & `align-items` properties with the value of `center`. -->
+
+
+<!-- 6. ### What is CSS grid?
+
+CSS grid is a layout system in CSS that allows you to create complex, multi-dimensional grid layouts for 
+web pages. -->
+
+
+<!-- 7. ### How do you use the grid-template-columns and grid-template-rows properties to define the size
+and number of columns and rows in a grid?
+
+You can use the grid-template-columns and grid-template-rows properties to define the size and number of
+columns and rows in a grid. For example, you might define a grid with three columns, where the first column
+is 100 pixels wide, the second column is 50% of the available width, and the third column takes up the
+remaining space, with the following CSS:
+
+    ```
+    grid-template-columns: 100px 50% 1fr; -->
+
+
+<!-- 8. ### How do you specify the number of columns in a grid using CSS?
+
+You can specify the number of columns in a grid by using the `grid-template-columns` property. 
+For example, `grid-template-columns: repeat(3, 1fr)` will create a grid with three columns that
+are each one fraction of the available space. -->
+
+
+<!-- 9. ### How do you align items within a grid using CSS?
+
+You can align items within a grid using the `justify-items` and `align-items` properties. justify-items
+aligns items horizontally within a grid, while `align-items` aligns items vertically. -->
+
+
+
+<!-- 10. ### What is the difference between grid-row and grid-column in CSS Grid?
+
+`grid-row` is used to position an item within a row, while `grid-column` is used to position an item within 
+a column.Both properties can take a value of either a number or a named grid line. -->
+
+
+<!-- 11. ### What is a CSS transition?
+
+A CSS transition is a way to add a gradual animation effect to an element when its CSS properties change. -->
+
+
+<!-- 12. ### What is the purpose of the `transition-property` property in CSS transitions?
+
+The `transition-property` property specifies which CSS property or properties should be 
+transitioned when a change occurs. -->
+
+
+<!-- 13. ### What is the function of the `transition-timing-function` property in CSS transitions?
+
+The `transition-timing-function` property specifies the rate of change of the
+transition over time. This can be used to control the speed of the transition and how it accelerates 
+and decelerates. Example: `ease-in`, `ease`, `ease-out`. -->
+
+
+<!-- 14. ### How do you delay the start of a CSS transition?
+
+You can delay the start of a CSS transition using the transition-delay property. This property specifies
+the amount of time to wait before starting the transition, in seconds or milliseconds. Example: 
+`transition-delay: 1s;` -->
+
+
+<!-- 15. ### How do you apply a transition to multiple properties at once?
+
+You can apply a transition to multiple properties at once by separating the property names with commas in the 
+`transition-property` property. example, `transition-property: background-color, color, opacity;` -->
+
+
+<!-- 16. ### What are CSS 2D Transforms?
+
+CSS 2D Transforms are a set of properties that allow you to transform the position, rotation, scaling, 
+and skewing of an element in two dimensions, without affecting the surrounding elements. -->
+
+
+<!-- 17. ### Can you use negative values with CSS 2D transforms? If so, what effect do they have?
+
+Yes, you can use negative values with CSS 2D transforms. The effect of negative values depends on the 
+function being used. For example, a negative value for the `rotate()` function will rotate the element 
+counterclockwise instead of clockwise. -->
+
+
+<!-- 18. ### What are the properties of CSS 2D transform?
+
+    The properties of CSS 2D Transforms are:
+
+    1. transform: specifies the transformation functions to be applied to an element
+    2. transform-origin: specifies the point around which the transformation should occur
+    3. translate: moves an element along the x-axis and/or y-axis
+    4. rotate: rotates an element clockwise or counterclockwise around a given point
+    5. scale: increases or decreases the size of an element
+    6. skew: skews an element along the x-axis and/or y-axis -->
+
+
+
+<!-- 19. ### Can you apply multiple transformations to the same element using CSS 2D transforms?
+
+Yes, you can apply multiple transformations to the same element using CSS 2D transforms. You can do this by 
+separating each transformation function with a space in the `transform` property. -->
+
+
+<!-- 20. ### What is the difference between the `translate()` and `rotate()` functions?
+
+The `translate()` function is used to move an element along the x-axis and/or y-axis, while the `rotate()`
+function is used to rotate an element clockwise or counterclockwise around a given point. -->
+
+
+<!-- 21. ### What are the properties of CSS 3D transform?
+
+    The properties of CSS 3D Transforms are:
+
+    1. transform-style: determines whether an element's children are transformed in 3D space
+    2. perspective: determines the distance between the viewer and the element, affecting the appearance of 3D transforms
+    3. perspective-origin: specifies the origin point of the perspective
+    4. transform: applies a 3D transformation to an element, such as rotateX(), rotateY(), rotateZ(), translateX(), translateY(),translateZ(), scale(), and skew()
+    5. transform-origin: specifies the origin point of the transformation
+    6. backface-visibility: determines whether or not the back face of an element should be visible when the element is rotated. -->
+
+
+<!-- 22. ### What is the difference between RGB and RGBA colors?
+
+RGBA is similar to RGB, but it includes an additional alpha value that represents the opacity of the color. 
+The alpha value is a number between 0 and 1, 
+with 0 being completely transparent and 1 being completely opaque. -->
+
+
+<!-- 23. ### What is color contrast?
+
+Color contrast is how much the colors of the text and the background of a website stand out from each other. -->
+
+
+<!-- 24. ### How does color contrast applies to accessibility in web design?
+
+It is important because people with visual impairments or color blindness may have trouble seeing things 
+if there is not enough contrast. There are guidelines for making sure there is enough contrast which makes
+the website content more accessible to the people. -->
+
+
+<!-- 25.  ### what is css filter?
+
+CSS filters are a set of visual effects that can be applied to HTML elements using CSS. Filters can be 
+used to adjust the appearance of an element in various ways, such as changing its color, blurring or 
+sharpening it, adjusting its brightness or contrast, and more. -->
+
